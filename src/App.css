@@ -166,12 +166,116 @@ PRODUCTS
   color: #fff;
   transition: all 0.2s ease;
 }
+.buyer-dashboard {
+  display: flex;
+}
+.buyers-sidebar {
+  background-color: #ffc684;
+}
+.sidebar-navlinks > a {
+  display: block;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 5px;
+  background-color: #ffa53e;
+  border-bottom: 1px solid #fff;
+}
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.buyer-profile {
+  padding: 10px;
+  background-color: rgb(255, 147, 58);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buyer-dashboard-pages-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.goal-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+
+}
+.goal-sub-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+.goal {
+  padding: 10px 20px;
+  background-color: #ffe1be;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+.set-target {
+  margin-top: 10px;
+  background-color: #ffa53e;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+.goal-title{
+  font-weight: bold;
+}
+.amount-spent-container{
+  /* width: 100%; */
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+}
+.charts {
+  width: 80%;
+  padding: 20px;
+}
+.progress-bar{
+  margin-top: 10px;
+  background-color: aquamarine;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+}
+.legend{
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  align-items: center;
+}
+
+.label > .expenses{
+  background-color: rgb(54, 208, 255);
+}
+.label {
+  width: 50px;
+  height: 30px;
+  background-color: #ffa53e;
+  border-radius: 10px;
+}
+.expenditure-chart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 footer {
   text-align: center;
   padding: 20px;
   background-color: #222;
   color: #fff;
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   width: 100%;
 }
