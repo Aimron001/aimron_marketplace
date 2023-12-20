@@ -1,8 +1,8 @@
 import React from "react";
-import BuyerDoughnutChart from "./BuyerDoughnutChart";
+import PurchasesTable from "./PurchasesTable";
 
 export default function Purchases() {
     return (
-        <BuyerDoughnutChart />
+        <PurchasesTable />
     )
 }

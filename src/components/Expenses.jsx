@@ -1,7 +1,10 @@
 import React from "react";
+import ExpensesTable from "./ExpensesTable";
 
 export default function Expenses() {
     return (
-        <h1>My Expenses goes here</h1>
+       <div>
+            <ExpensesTable />
+       </div>
     )
 }

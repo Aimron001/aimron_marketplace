@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import logo from '../assets/images/logo.jpg';
 
 
@@ -30,12 +30,12 @@ export default function Header(){
                     </NavLink>
                     <NavLink 
                         style={ ({isActive}) => isActive ? activeStyle : null}
-                        to=''>
+                        to='login'>
                         Login
                     </NavLink>
                     <NavLink 
                         style={ ({isActive}) => isActive ? activeStyle : null}
-                        to=''>
+                        to='buyer-or-seller'>
                         Sign Up
                     </NavLink>
                 </nav>
@@ -45,7 +45,7 @@ export default function Header(){
                     <h1>Welcome to <span>Aimron</span> Marketplace</h1>
                     <p>where shopping meets innovation, and your experience is our priority</p>
                 </div>
-                <button className='get-started-btn'>Get Started</button>
+                <Link to="buyer-or-seller" className='get-started-btn'>Get Started</Link>
             </div>
         </header>
     )

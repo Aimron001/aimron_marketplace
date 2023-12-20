@@ -1,7 +1,18 @@
 import React from "react";
+import ShoppingItem from "./ShoppingItem";
 
 export default function ShoppingList() {
     return (
-        <h1>Shopping List goes here</h1>
+        <div className="shopping-items-conatiner">
+            <ShoppingItem />
+            <ShoppingItem />
+            <ShoppingItem />
+            <ShoppingItem />
+            <ShoppingItem />
+            <ShoppingItem />
+            <ShoppingItem />
+            <ShoppingItem />
+            <ShoppingItem />
+        </div>
     )
 }

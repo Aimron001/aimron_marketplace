@@ -10,6 +10,10 @@ import Purchases from './components/Purchases';
 import Expenses from './components/Expenses';
 import ShoppingList from './components/ShoppingList';
 import BuyerAccount from './components/BuyersAccount';
+import Login from './pages/Login';
+import SellerRegistration from './pages/SellerRegistration';
+import BuyerRegistration from './pages/BuyerRegistration';
+import BuyerOrSeller from './pages/BuyerOrSeller';
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +22,11 @@ function App() {
           <Route index element={ <Home />} />
           <Route path='products' element={ <Products />} />
           <Route path='services' element={ <Services />} />
+          <Route path='login' element={ <Login />} />
+          <Route path='seller-registration' element={ <SellerRegistration />} />
+          <Route path='buyer-registration' element={ <BuyerRegistration />} />
+          <Route path='buyer-or-seller' element={ <BuyerOrSeller />} />
+
           <Route path='dashboard' element={ <BuyersLayout /> } >
             <Route index element={ <MonthlyGoals /> } />
             <Route path='purchases' element={ <Purchases /> } />
