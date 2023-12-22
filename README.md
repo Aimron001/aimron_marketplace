@@ -1,5 +1,7 @@
 # Aimron Marketplace
 
+# LINK TO THE DEPLOYED SITE WILL BE AVAILABLE SOON
+
 Aimron Marketplace is an ecommerce that connects buyers to sellers. It offers buyers features such as; setting monthly expenditure goals, enables them to manage all their finances and also gives them the ability to set shopping list.Sellers get features such as stock management and a dedicated webpage for their products.
 
 ![Aimron Marketplace logo](./src/assets/images/logo.jpg)
