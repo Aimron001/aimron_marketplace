@@ -186,6 +186,7 @@ PRODUCTS
   border-radius: 50%;
 }
 .buyer-profile {
+  text-align: center;
   padding: 10px;
   background-color: rgb(255, 147, 58);
   display: flex;
@@ -399,6 +400,66 @@ input {
 .shop-logo-container > img {
   width: 100px;
   height: 100px;
+  border-radius: 50%;
+}
+.employees-container {
+  padding: 15px;
+}
+.employees-card {
+  display: flex;
+  gap: 10px;
+  background-color: #fff;
+  width: 80%;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 5px;
+}
+.employees-card > img {
+  width: 150px;
+  height: 150px;
+  border-radius:  8px;
+}
+.dashboard-quick-stats{
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+}
+.dashboard-quick-stats > div{
+  padding: 15px;
+  border-radius: 10px;
+}
+.sales-stats {
+  background-color: #ffa53e;
+
+}
+.orders-stats {
+  background-color: rgb(2, 114, 76);
+  color: #fff;
+}
+.expenses-stats {
+  background-color: rgb(227, 82, 82);
+  color: #fff;
+}
+.seller-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.updates {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.updates-card{
+  display: flex;
+  background-color:  #fff;
+  padding: 15px;
+  border-radius: 15px;
+}
+.updates-card > img{
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
 }
 footer {

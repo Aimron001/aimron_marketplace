@@ -35,18 +35,18 @@ export default function Header(){
                     </NavLink>
                     <NavLink 
                         style={ ({isActive}) => isActive ? activeStyle : null}
-                        to='buyer-or-seller'>
+                        to='sign-up'>
                         Sign Up
                     </NavLink>
                 </nav>
             </div>
-            <div className='hero-section'>
+            {/* <div className='hero-section'>
                 <div className='hero-text'>
                     <h1>Welcome to <span>Aimron</span> Marketplace</h1>
                     <p>where shopping meets innovation, and your experience is our priority</p>
                 </div>
                 <Link to="buyer-or-seller" className='get-started-btn'>Get Started</Link>
-            </div>
+            </div> */}
         </header>
     )
 }

@@ -16,12 +16,24 @@ const handleClose = () => setOpen(false);
                 <button className="set-target">SET TARGET</button>
                 <div className="goal-container">   
                     <div className="goal-sub-container">
-                        <p className="goal-title">AMOUNT</p>
-                        <p className="goal">70,000</p>
+                        <label className="goal-title">AMOUNT</label>
+                        <input type="number" disabled="false" className="goal" />
                     </div>
                     <div className="goal-sub-container">
-                        <p className="goal-title">MONTH</p>
-                        <p className="goal">December</p>
+                        <label className="goal-title">MONTH</label>
+                        <select className="goal">
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
                     </div>
                 </div>
                 <div className="amount-spent-container">

@@ -40,7 +40,7 @@ const rows = [
   createData('Electricity', 500, '13/12/2023', 500, 0)
 ];
 
-export default function ExpensesTable() {
+export default function BuyerExpensesTable() {
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(10);
 

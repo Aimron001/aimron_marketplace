@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Aimron Marketplace
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aimron Marketplace is an ecommerce that connects buyers to sellers. It offers buyers features such as; setting monthly expenditure goals, enables them to manage all their finances and also gives them the ability to set shopping list.Sellers get features such as stock management and a dedicated webpage for their products.
 
-## Available Scripts
+![Aimron Marketplace logo](./src/assets/images/logo.jpg)
 
-In the project directory, you can run:
+# Features
 
-### `npm start`
+## Buyers Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Buyers Features](./src/assets/images/set-goal.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The buyers will enjoy the following features
 
-### `npm test`
+### Setting Monthly Goals
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The marketplace enables you to set your monthly expenditure and visualizes the how much you have spent and how much is remaining to hit the target in good looking charts
 
-### `npm run build`
+### Tracking their expenses
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+They will be able to track all your purchases including all their details.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Managing their expenses
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We give you the ability to keep a record of your expenditure aside the purchases and this enables proper account of all your money
 
-### `npm run eject`
+### Ability to set shopping list
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is a feature that enables you to set a shopping list of items you would like to buy. You will be able to make purchase from the shopping list in a click of a button
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Sellers Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Sellers Features](./src/assets/images/seller-dashboard.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The sellers accounts will have the following features
 
-## Learn More
+### Dashboard
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This page nicely summarises all your shops activities for the last 24 hours.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Orders
 
-### Code Splitting
+This page will contain all orders that ave ever been placed enabling you to keep track of the orders and do deliveries effectively
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Sales
 
-### Analyzing the Bundle Size
+In this page there will be a summary of all te sales you have made and profit made.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Expenses
 
-### Making a Progressive Web App
+In this page, you'll get to see all the shop's expenses and also be able to add any other expenses
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Employees
 
-### Advanced Configuration
+This page will have all the shop's emloyees information, their deatils and their pay day. The seller who is the owner of the shop will get a reminder of the employees pay day.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# About Developer
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+My name is Ronald Mutua. This projects was inspired by the need of a way to manage stock and my brother's shop. I saw that, this problem could be solved by creating this project and that's why I did it.

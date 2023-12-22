@@ -1,19 +1,20 @@
 
 import React, { useState } from 'react';
-import { useNavigate,Link } from 'react-router-dom';
-import { signInWithEmailAndPassword } from "firebase/auth";
+import { useNavigate, Link } from 'react-router-dom';
+import { createUserWithEmailAndPassword } from "firebase/auth";
 import auth from '../config/firebase';
 
-function Login() {
+
+function SignUp() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
-  const handleLogin = async (e) => {
+  const handleSignUp = async (e) => {
     e.preventDefault();
   
     try {
-      const userCredential = await signInWithEmailAndPassword(auth, email, password);
+      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
       const selectedRole = document.querySelector('input[name="role"]:checked').value;
   
@@ -26,7 +27,7 @@ function Login() {
   };
 
   return (
-    <form onSubmit={handleLogin} className="login-container">
+    <form onSubmit={handleSignUp} className="login-container">
       <label htmlFor="email">Email:</label>
       <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
 
@@ -42,10 +43,10 @@ function Login() {
         </label>
       </div>
 
-      <button type="submit">Login</button>
-      <Link  to="/sign-up">Don't have an account</Link>
+      <button type="submit">Sign Up</button>
+      <Link to="login">Already have an account?</Link>
     </form>
   );
 }
 
-export default Login;
+export default SignUp;

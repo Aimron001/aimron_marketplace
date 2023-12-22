@@ -5,6 +5,7 @@ import Seller from '../components/SellersFeatures';
 export default function Home()  {
     return (
         <div className="container">
+            
             <main>
                 <Buyer />
                 <Seller />
